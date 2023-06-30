@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search Application</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <nav class="title">
+      <h1>Movie Search Application</h1>
+    </nav>
+    <main class="container">
+      <div class="search-section">
+        <div class="search-box">
+          <input type="search" id="search-input" placeholder="Search movie" />
+          <button id="search-btn" onclick="getSearch()">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+        </div>
+      </div>
+      <div class="display-section"></div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
